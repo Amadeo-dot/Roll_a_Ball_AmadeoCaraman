@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
         countText.text =  "Counter: " + count.ToString();
         if (count >= 12)
         {
+            Destroy(GameObject.FindGameObjectWithTag("Enemy"));
             winTextObject.SetActive(true);
         }
     }
@@ -48,6 +49,17 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+   if (collision.gameObject.CompareTag("Enemy"))
+   {
+       // Destroy the current object
+       Destroy(gameObject); 
+       // Update the winText to display "You Lose!"
+       winTextObject.gameObject.SetActive(true);
+       winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
+   }
+   }
 
     // Update is called once per frame
     void Update()
