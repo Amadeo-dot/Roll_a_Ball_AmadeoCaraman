@@ -7,25 +7,25 @@ Distro version:          #79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54
 Kernel version:          6.8.0-79-generic
 Architecture:            x86_64
 Available memory:        31805 MB
-Date:                    2025-09-24T07:00:22Z
+Date:                    2025-09-24T07:05:37Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-09-24T07:00:22.35386Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-09-24T07:05:37.974035Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alumne"
 [Licensing::IpcConnector] LicenseClient-alumne channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.5" at "2025-09-24T07:00:22.355802Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.5" at "2025-09-24T07:05:37.975362Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              24380ef10a3341ae913fb14364b7fb85
-  Correlation Id:          953e63d5fc2c0c6f0202dec024326a7a
-  External correlation Id: 759180541379481374
+  Session Id:              a812a71dec2f4d17b927a8e6cadcf8ae
+  Correlation Id:          5443b23dd728bdae19ed330ba2858cf3
+  External correlation Id: 1047528234243212100
   Machine Id:              PBfslzCGj3XDXh96AHqdGvRuB7g=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alumne-6000.2.5" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.5-notifications" at "2025-09-24T07:00:22.358735Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.5-notifications" at "2025-09-24T07:05:37.977541Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
@@ -43,7 +43,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-34785
+38855
 -licensingIpc
 LicenseClient-alumne
 -job-worker-count
@@ -54,9 +54,9 @@ LicenseClient-alumne
 1
 Successfully changed project path to: /home/alumne/Roll_a_Ball_AmadeoCaraman
 
-(Unity:16841): Gtk-CRITICAL **: 09:00:22.575: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:17655): Gtk-CRITICAL **: 09:05:38.245: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:16841): Gtk-CRITICAL **: 09:00:22.575: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:17655): Gtk-CRITICAL **: 09:05:38.245: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/alumne/Roll_a_Ball_AmadeoCaraman
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -93,14 +93,14 @@ Successfully changed project path to: /home/alumne/Roll_a_Ball_AmadeoCaraman
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [138524482509568]  Target information:
+Player connection [129323256916736]  Target information:
 
-Player connection [138524482509568]  * "[IP] 192.168.96.4 [Port] 0 [Flags] 2 [Guid] 4229925019 [EditorId] 4229925019 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.4) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [129323256916736]  * "[IP] 192.168.96.4 [Port] 0 [Flags] 2 [Guid] 2614496464 [EditorId] 2614496464 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.4) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [138524482509568]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 4229925019 [EditorId] 4229925019 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.4) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [129323256916736]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 2614496464 [EditorId] 2614496464 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.4) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [138524482509568] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [138524482509568] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [129323256916736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [129323256916736] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -112,7 +112,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.5f1 (43d04cd1df69)
 [Subsystems] Discovering subsystems at path /home/alumne/Unity/Hub/Editor/6000.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -135,50 +135,50 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
 _multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1588904280
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -352481528
 Initialize mono
 Mono path[0] = '/home/alumne/Unity/Hub/Editor/6000.2.5f1/Editor/Data/Managed'
 Mono path[1] = '/home/alumne/Unity/Hub/Editor/6000.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/alumne/Unity/Hub/Editor/6000.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56841
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56655
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,000814 seconds.
-- Loaded All Assemblies, in  0,229 seconds
+Registered in 0,000804 seconds.
+- Loaded All Assemblies, in  0,228 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,239 seconds
-Domain Reload Profiling: 468ms
-	BeginReloadAssembly (53ms)
+- Finished resetting the current domain, in  0,255 seconds
+Domain Reload Profiling: 484ms
+	BeginReloadAssembly (51ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (53ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (50ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (100ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (239ms)
+	FinalizeReload (256ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (223ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
+			InitializePlatformSupportModulesInManaged (39ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -193,7 +193,7 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0,439 seconds
+- Loaded All Assemblies, in  0,442 seconds
 Refreshing native plugins compatible for Editor in 0,18 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
@@ -202,116 +202,74 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,443 seconds
-Domain Reload Profiling: 882ms
+- Finished resetting the current domain, in  0,481 seconds
+Domain Reload Profiling: 922ms
 	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (293ms)
-		LoadAssemblies (169ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (110ms)
-			BuildScriptInfoCaches (29ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (444ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (481ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (324ms)
+		SetupLoadedEditorAssemblies (354ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (217ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 AutoLocale: current locale expects 'C' but got 'ca_ES.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6102 unused Assets / (5.7 MB). Loaded Objects now: 6807.
-Memory consumption went from 130.1 MB to 124.4 MB.
-Total: 9.070926 ms (FindLiveObjects: 0.446107 ms CreateObjectMapping: 0.518786 ms MarkObjects: 4.630688 ms  DeleteObjects: 3.474600 ms)
+Unloading 6102 unused Assets / (5.0 MB). Loaded Objects now: 6807.
+Memory consumption went from 128.2 MB to 123.2 MB.
+Total: 7.901843 ms (FindLiveObjects: 0.441663 ms CreateObjectMapping: 0.524164 ms MarkObjects: 4.142565 ms  DeleteObjects: 2.792546 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3559.369337 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01930f40487c8621e82f37946cdc2c76') in 0.016133287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.00105121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.889390 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(e3ba0bafbcf679680adae4947609df5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(e3ba0bafbcf679680adae4947609df5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03790bb342554f2a6acac931e99f838c') in 0.000278744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098756 seconds.
-  path: Assets/Prefab/PickUp.prefab
-  artifactKey: Guid(93dcd04f33c8accf4ab089f00fc6eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PickUp.prefab using Guid(93dcd04f33c8accf4ab089f00fc6eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f7e759c584c407173e2ae52ba097e54') in 0.990769927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.579819 seconds.
-  path: Assets/Scenes/SampleScene
-  artifactKey: Guid(a457c47fb709e984ab24757534f00f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(a457c47fb709e984ab24757534f00f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '062aca134bef9879cc704b3c576621c4') in 0.000304376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.120191 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Ground.asset
-  artifactKey: Guid(e285fae6da73bbf2880fa6fa9403044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Ground.asset using Guid(e285fae6da73bbf2880fa6fa9403044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25f1a615a02b9f28298fc9c88cc3817f') in 0.000641528 seconds
+  Time since last request: 3873.737671 seconds.
+  path: Assets/Materials/Walls.mat
+  artifactKey: Guid(db07725d39ca71dd59738accc034cd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walls.mat using Guid(db07725d39ca71dd59738accc034cd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ca7b81a783349e99fcbe1fd431842fa') in 0.350445367 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.989086 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10528149371aefc32227726816d72a59') in 0.000644344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Player.mat
+  artifactKey: Guid(2f0693e5b174c37c6812a3b83286bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player.mat using Guid(2f0693e5b174c37c6812a3b83286bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '245936b3d9331c8501dd7b343fbc56f8') in 0.005382934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.026462 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db197cde3899097fb35a5e04db69c105') in 0.000703035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/Background.mat
+  artifactKey: Guid(8969505be52adc85fbc2c0cc094a3ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Background.mat using Guid(8969505be52adc85fbc2c0cc094a3ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '144187b2268b6d74c8efdbcc3b2a4d2b') in 0.004339391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79646724341c03592efff68b5b83b16f') in 0.000479848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
 
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
